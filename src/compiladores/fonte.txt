@@ -1,0 +1,17 @@
+int main(){
+int a;
+float b;
+while(a-1>b*3/2){
+int x;
+x = 7;
+if (b>=0){
+do{
+b = b+1;
+}while(b<10);
+}else{
+b = 0 - 2;
+}
+while (a<0){
+a = x +1;
+
+}}}
