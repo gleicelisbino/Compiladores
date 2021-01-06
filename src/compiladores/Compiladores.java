@@ -8,12 +8,11 @@ public class Compiladores {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
         FileInputStream fonte;
-  fonte = new FileInputStream("\\Users\\gracc\\OneDrive\\Documentos\\NetBeansProjects\\Compiladores\\src\\compiladores\\fonte.txt");
+  fonte = new FileInputStream("\\DiretorioDoArquivo");
 
  //fonte = new FileInputStream(args[0]);
         Parser p = new Parser(fonte);
         p.programa();
-
         //Pilha
         //  TabelaDeSimbolos pi = new TabelaDeSimbolos();
         // StringBuffer word = new StringBuffer("carro");
